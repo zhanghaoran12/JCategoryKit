@@ -1,0 +1,6 @@
+framework module JCategoryKit {
+  umbrella header "JCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
