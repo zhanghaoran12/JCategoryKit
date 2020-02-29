@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'JCategoryKit_Example' do
+  pod 'JCategoryKit', :path => '../'
+
+  target 'JCategoryKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
